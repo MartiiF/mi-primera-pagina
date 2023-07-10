@@ -5,7 +5,7 @@ document.querySelector("button.button-menu-toggle")
     document.querySelector(".nav-links").
       classList.toggle("nav-links-responsive")})
 
-const form = document.getElementById("fromulario")
+const form = document.getElementById("formulario")
 form.addEventListener("submit", function(event) {
     event.preventDefault();
     validateForm();
